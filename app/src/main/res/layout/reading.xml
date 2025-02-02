@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/x_value"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="5dp"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#AAA"/>
+    <TextView
+        android:id="@+id/x_boxes"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="5dp"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#AAA" />
+    <TextView
+        android:id="@+id/y_value"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="5dp"/>
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#AAA" />
+    <TextView
+        android:id="@+id/y_boxes"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:padding="5dp"/>
+    <ImageButton
+        android:id="@+id/remove"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/close"
+        android:layout_gravity="center_vertical"
+        android:layout_marginHorizontal="6dp"
+        app:tint="#88FF0000"/>
+</LinearLayout>
